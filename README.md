@@ -2,7 +2,7 @@
 
 LipRead is a sophisticated deep learning application that can read lips from mute videos using advanced computer vision and deep learning techniques. The project uses a combination of 3D CNNs and Bidirectional LSTMs to achieve accurate lip reading predictions.
 
-## 🚀 Features
+## Features
 
 - Real-time lip reading from video input
 - Interactive web interface using Streamlit
@@ -10,7 +10,7 @@ LipRead is a sophisticated deep learning application that can read lips from mut
 - Visual feedback showing model's video processing
 - Deep learning model with 3D CNNs and Bidirectional LSTMs
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Python** - Primary programming language
 - **TensorFlow** - Deep learning framework
@@ -18,7 +18,7 @@ LipRead is a sophisticated deep learning application that can read lips from mut
 - **FFmpeg** - Video processing
 - **OpenCV** - Image processing
 
-## 📊 Model Architecture
+## Model Architecture
 
 The deep learning model consists of:
 - Multiple 3D Convolutional layers for spatial-temporal feature extraction
@@ -27,7 +27,7 @@ The deep learning model consists of:
 - Dense layer with softmax activation for classification
 - Dropout layers for regularization
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 lip-reading/
@@ -42,7 +42,7 @@ lip-reading/
 └── LipRead.ipynb        # Jupyter notebook for model development
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -56,7 +56,7 @@ lip-reading/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/first-sumit/lip-reading.git
+git clone https://github.com/AdityaAarya/Lip-Reading-from-Video-using-Deep-Learning.git
 cd lip-reading
 ```
 
@@ -71,7 +71,7 @@ cd app
 streamlit run streamlitapp.py
 ```
 
-## 💻 Usage
+## Usage
 
 1. Launch the Streamlit application
 2. Select a video file from the dropdown menu
@@ -80,15 +80,15 @@ streamlit run streamlitapp.py
    - Processed frames used by the model on the right
    - Predicted text output below
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 👏 Acknowledgments
+## Acknowledgments
 
 - Thanks to the TensorFlow and Streamlit communities
 - Special thanks to contributors and maintainers
